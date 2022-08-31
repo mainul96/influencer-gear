@@ -1,0 +1,125 @@
+/* Import google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* Reset code */
+*{
+  padding: 0;
+  margin: 0;
+}
+/* header section start */
+body{
+  background-color:  #FFFF;
+  font-family: 'Poppins', sans-serif;
+  width: 1200px;
+  margin: 0 auto;
+}
+header{
+  margin-top: 50px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+h4{
+  font-size: 24px;
+}
+.menu-list{
+  display: flex;
+}
+.list-items{
+  padding: 10px;
+  list-style: none;
+  font-size: 16px;
+}
+.list-items a{
+  text-decoration: none;
+  color: black;
+
+}
+/* Header section end */
+/* Banner section  start*/
+.container{
+  margin-top: 7em;
+  
+}
+.banner-section{
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: center; */
+}
+.banner-info {
+  width: 45%;
+ 
+}
+.banner-title{
+  font-size:3.1em ;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+.banner-details{
+  font-size: 1em;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+.preebook-btn{
+  text-decoration: none;
+  color: white;
+  background-color: #E02C6D;
+  padding: 10px 20px;
+  border-radius: 41px;
+}
+/* Banner section end */
+/* company section start*/
+.company{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  padding: 50px;
+}
+/* company section end */
+
+/* product section start */
+.products{
+  background-color: aliceblue;
+  padding: 50px;
+  border-radius: 10px;
+}
+.product-list{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.product-items{
+  background: #FFFFFF;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding:20px;
+}
+.product-items img{
+  width: 100%;
+}
+.product-title{
+  text-align: center;
+  padding-bottom: 30px;
+}
+.product-name{
+  padding-top:16px;
+  font-size: 28px;
+}
+.product-price{
+  font-size: 24px;
+}
+.field{
+  color: #FB8200;
+}
+.rating-value{
+  font-size: 16px;
+  padding-left: 5px;
+  color: #5E6366;
+}
+.product-details{
+  color: #5E6366;
+  font-size: 14px;
+}
+/* product sectin end */
